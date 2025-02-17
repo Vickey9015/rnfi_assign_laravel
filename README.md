@@ -28,3 +28,5 @@ Step 11- import api collection shared
 
 Now Api's can be testing.
 
+Note:  The .env file and api collection file is shared on mail.
+
