@@ -28,5 +28,7 @@ Step 11- import api collection shared
 
 Now Api's can be testing.
 
-Note:  The .env file and api collection file is shared on mail.
+Notes:
+A)- The .env file and api collection file is shared on mail.
+B)- Unit and feature tests for th AP's are written in **tests** folder.
 
