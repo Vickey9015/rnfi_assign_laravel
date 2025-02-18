@@ -26,7 +26,7 @@ Step 10- open postman / any app for api testing.
 
 Step 11- import api collection shared
 
-Now Api's can be testing.
+Now Api's can be tested.
 
 Notes:
 
