@@ -34,3 +34,5 @@ A)- The .env file and api collection file is shared on mail.
 
 B)- Unit and feature tests for the API's are written in **tests** folder.
 
+C)- I have set API rate limiting to prevent abuse in route/api.php middleware using **'throttle:20,1'**. (20 request per user per min).
+
