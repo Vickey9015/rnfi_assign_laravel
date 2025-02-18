@@ -22,7 +22,7 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
 // Protected Routes (Require Authentication)
-Route::middleware('auth:sanctum')->group(function () {
+Route::middleware('auth:sanctum','throttle:20,1')->group(function () {
     Route::post('/create_transactions', [TransactionController::class, 'store']);
     Route::get('/get_transactions', [TransactionController::class, 'showTransactions']);
     Route::get('/get_transaction_by_id/{id}', [TransactionController::class, 'showTransactionByID']);
